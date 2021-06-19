@@ -1,2 +1,6 @@
 # Custom-Counter-app
-Created with CodeSandbox
+
+Steps to run the app
+
+1. Run "npm install".
+2. Run "npm start"
