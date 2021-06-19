@@ -1,0 +1,55 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  max-width: 300px;
+  margin-top: 40px;
+  justify-content: center;
+  border-radius: 6px;
+  border: 1px solid #b24242;
+  width: 180px;
+  height: 56px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.counter {
+  flex-grow: 1;
+  text-align: center;
+  padding-top: 17px;
+  font-size: 21px;
+  max-width: 60px;
+}
+
+.increment-div {
+  background-color: #b24242;
+  color: white;
+}
+
+.value-div {
+  background-color: #fbe8e8;
+  color: #b24242;
+}
+
+.value-input {
+  width: 50px;
+  background-color: #fbe8e8;
+  border: none;
+  font-size: 21px;
+  margin-right: 32px;
+  text-align: center;
+}
+
+.value-input:focus {
+  outline: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
